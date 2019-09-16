@@ -1,0 +1,23 @@
+{
+  "name": "silverboyir/silverphpmail",
+  "version": "1.0.0",
+  "type": "library",
+  "description": "Fetch Email From IMAP - POP3 Server",
+  "keywords": ["imap","pop3", "email"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hossein Rezazadeh Hamed",
+      "email": "me@silverboy.ir",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SilverPHPMail\\": "src/"
+    }
+  }
+}
